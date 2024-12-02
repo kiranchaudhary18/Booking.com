@@ -47,3 +47,44 @@
     flex-direction: row;
     column-gap: 1.5vw;
 }
+.text1{
+    color:white;
+    font-size: 1.7em;
+    margin-top: -56vh;
+    margin-left: 12vw;
+}
+.text2{
+    color:white;
+    font-size: 3.5em;
+    margin-left: 12vw;
+    margin-top: 2vh;
+}
+.text3{
+    color:white;
+    margin-left: 12vw;
+    margin-top: -3vh;
+    font-size: 1.9em;
+}
+.box3{
+    background-color: rgb(140, 140, 205);
+}
+/* .white{
+    background-color: yellow;
+    height: 5vh;
+    margin-top: 8vh;
+
+} */
+ .box4{
+    border: 1.5px solid rgb(162, 157, 157);
+    margin-top: 18vh;
+    margin-left: 12vw;
+    width: 1.7vw;
+    height: 3.5vh;
+    border-radius: .5vh;
+ }.box5{
+    border: 1px solid rgb(162, 157, 157);
+    margin-left: 12vw;
+    margin-top: 6vh;
+    width: 78vw;
+    height: 16vh;
+ }
