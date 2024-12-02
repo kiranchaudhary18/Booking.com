@@ -108,25 +108,34 @@
     margin-top: 4vh;
     border-radius: 50%;
  }
+ .scroll{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 84vw;
+    
+    
+
+ }
  .image{
     margin-left: 12vw;
-    width: 72vw;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     column-gap: 1vw;
-    overflow-x: scroll;
-    scrollbar-width:none ;
+    /* overflow-x: scroll; */
+    /* scrollbar-width:none ; */
     
  }
  .image-text{
-    display: flex;
-    flex-direction: row;
-    column-gap: 15vw;
+    display: grid;
+    /* flex-direction: row; */
+    /* column-gap: 13vw; */
+    grid-template-columns:18.5vw 20.5vw 16vw 18vw 19vw 18vw 19vw 17vw 18.5vw 18vw 18vw 18vw 18vw 18.5vw 18vw 18vw 18.5vw 18vw 18vw 18.5vw 18vw 18vw 20vw  ;
     margin-left: 12vw;
     font-size: 1.2em;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     width: 72vw;
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
  }
  .images1{
     margin-left: 12vw;
@@ -151,7 +160,7 @@
  }
  .sign{
     border: 1px solid rgb(144, 140, 140);
-    height:20vh;
+    height:22vh;
     width:79vw ;
     margin-left: 12vw;
     border-radius: .5vw;
@@ -159,5 +168,5 @@
     flex-direction: row;
 
  }s.img{
-  margin-left: vw;
+  
  }
